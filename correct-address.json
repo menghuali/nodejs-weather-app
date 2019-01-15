@@ -1,0 +1,121 @@
+{
+    "statusCode": 200,
+    "body": {
+        "info": {
+            "statuscode": 0,
+            "copyright": {
+                "text": "© 2018 MapQuest, Inc.",
+                "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+                "imageAltText": "© 2018 MapQuest, Inc."
+            },
+            "messages": []
+        },
+        "options": {
+            "maxResults": -1,
+            "thumbMaps": true,
+            "ignoreLatLngInput": false
+        },
+        "results": [{
+            "providedLocation": {
+                "location": "60 Selkirk Dr, Richmond Hill, ON, Canada"
+            },
+            "locations": [{
+                "street": "60 Selkirk Dr",
+                "adminArea6": "",
+                "adminArea6Type": "Neighborhood",
+                "adminArea5": "Richmond Hill",
+                "adminArea5Type": "City",
+                "adminArea4": "York",
+                "adminArea4Type": "County",
+                "adminArea3": "ON",
+                "adminArea3Type": "State",
+                "adminArea1": "CA",
+                "adminArea1Type": "Country",
+                "postalCode": "L4B 4S4",
+                "geocodeQualityCode": "P1AAA",
+                "geocodeQuality": "POINT",
+                "dragPoint": false,
+                "sideOfStreet": "L",
+                "linkId": "r27842587|p100615544|n37374308",
+                "unknownInput": "",
+                "type": "s",
+                "latLng": {
+                    "lat": 43.846632,
+                    "lng": -79.423823
+                },
+                "displayLatLng": {
+                    "lat": 43.846639,
+                    "lng": -79.42398
+                },
+                "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&type=map&size=225,160&locations=43.846632,-79.423823|marker-sm-50318A-1&scalebar=true&zoom=15&rand=595050723"
+            }]
+        }]
+    },
+    "headers": {
+        "access-control-allow-methods": "OPTIONS,GET,POST",
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, must-revalidate",
+        "content-type": "application/json;charset=UTF-8",
+        "date": "Wed, 26 Dec 2018 21:13:08 GMT",
+        "expires": "Mon, 20 Dec 1998 01:00:00 GMT",
+        "geocodetransactioncount": "1",
+        "last-modified": "Wed, 26 Dec 2018 21:13:08 GMT",
+        "pragma": "no-cache",
+        "reversegeocodetransactioncount": "0",
+        "server": "Apache-Coyote/1.1",
+        "set-cookie": ["JSESSIONID=F3648ABBFF67710810CA49FC6251FDDD; Path=/; HttpOnly"],
+        "status": "success",
+        "transactionweight": "1.0",
+        "content-length": "1098",
+        "connection": "Close"
+    },
+    "request": {
+        "uri": {
+            "protocol": "http:",
+            "slashes": true,
+            "auth": null,
+            "host": "www.mapquestapi.com",
+            "port": 80,
+            "hostname": "www.mapquestapi.com",
+            "hash": null,
+            "search": "?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&location=60%20Selkirk%20Dr%2C%20Richmond%20Hill%2C%20ON%2C%20Canada",
+            "query": "key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&location=60%20Selkirk%20Dr%2C%20Richmond%20Hill%2C%20ON%2C%20Canada",
+            "pathname": "/geocoding/v1/address",
+            "path": "/geocoding/v1/address?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&location=60%20Selkirk%20Dr%2C%20Richmond%20Hill%2C%20ON%2C%20Canada",
+            "href": "http://www.mapquestapi.com/geocoding/v1/address?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&location=60%20Selkirk%20Dr%2C%20Richmond%20Hill%2C%20ON%2C%20Canada"
+        },
+        "method": "GET",
+        "headers": {
+            "accept": "application/json"
+        }
+    }
+} {
+    street: '60 Selkirk Dr',
+    adminArea6: '',
+    adminArea6Type: 'Neighborhood',
+    adminArea5: 'Richmond Hill',
+    adminArea5Type: 'City',
+    adminArea4: 'York',
+    adminArea4Type: 'County',
+    adminArea3: 'ON',
+    adminArea3Type: 'State',
+    adminArea1: 'CA',
+    adminArea1Type: 'Country',
+    postalCode: 'L4B 4S4',
+    geocodeQualityCode: 'P1AAA',
+    geocodeQuality: 'POINT',
+    dragPoint: false,
+    sideOfStreet: 'L',
+    linkId: 'r27842587|p100615544|n37374308',
+    unknownInput: '',
+    type: 's',
+    latLng: {
+        lat: 43.846632,
+        lng: -79.423823
+    },
+    displayLatLng: {
+        lat: 43.846639,
+        lng: -79.42398
+    },
+    mapUrl: 'http://www.mapquestapi.com/staticmap/v5/map?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&type=map&size=225,160&locations=43.846632,-79.423823|marker-sm-50318A-1&scalebar=true&zoom=15&rand=595050723'
+}

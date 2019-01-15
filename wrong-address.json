@@ -1,0 +1,179 @@
+{
+    "statusCode": 200,
+    "body": {
+        "info": {
+            "statuscode": 0,
+            "copyright": {
+                "text": "© 2018 MapQuest, Inc.",
+                "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+                "imageAltText": "© 2018 MapQuest, Inc."
+            },
+            "messages": []
+        },
+        "options": {
+            "maxResults": -1,
+            "thumbMaps": true,
+            "ignoreLatLngInput": false
+        },
+        "results": [{
+            "providedLocation": {
+                "location": "00000"
+            },
+            "locations": [{
+                "street": "",
+                "adminArea6": "",
+                "adminArea6Type": "Neighborhood",
+                "adminArea5": "",
+                "adminArea5Type": "City",
+                "adminArea4": "",
+                "adminArea4Type": "County",
+                "adminArea3": "",
+                "adminArea3Type": "State",
+                "adminArea1": "FR",
+                "adminArea1Type": "Country",
+                "postalCode": "00000",
+                "geocodeQualityCode": "Z1XAA",
+                "geocodeQuality": "ZIP",
+                "dragPoint": false,
+                "sideOfStreet": "N",
+                "linkId": "347340409",
+                "unknownInput": "",
+                "type": "s",
+                "latLng": {
+                    "lat": -21.46666,
+                    "lng": 39.6833
+                },
+                "displayLatLng": {
+                    "lat": -21.46666,
+                    "lng": 39.6833
+                },
+                "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&type=map&size=225,160&locations=-21.46666,39.6833|marker-sm-50318A-1&scalebar=true&zoom=15&rand=43743136"
+            }, {
+                "street": "",
+                "adminArea6": "",
+                "adminArea6Type": "Neighborhood",
+                "adminArea5": "",
+                "adminArea5Type": "City",
+                "adminArea4": "",
+                "adminArea4Type": "County",
+                "adminArea3": "KAMPONG CHAM PROVINCE",
+                "adminArea3Type": "State",
+                "adminArea1": "KH",
+                "adminArea1Type": "Country",
+                "postalCode": "00000",
+                "geocodeQualityCode": "Z1XAA",
+                "geocodeQuality": "ZIP",
+                "dragPoint": false,
+                "sideOfStreet": "N",
+                "linkId": "346796157",
+                "unknownInput": "",
+                "type": "s",
+                "latLng": {
+                    "lat": 13.088435,
+                    "lng": 102.449527
+                },
+                "displayLatLng": {
+                    "lat": 13.088435,
+                    "lng": 102.449527
+                },
+                "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&type=map&size=225,160&locations=13.088435,102.449527|marker-sm-50318A-2&scalebar=true&zoom=15&rand=-1940328370"
+            }, {
+                "street": "",
+                "adminArea6": "",
+                "adminArea6Type": "Neighborhood",
+                "adminArea5": "",
+                "adminArea5Type": "City",
+                "adminArea4": "",
+                "adminArea4Type": "County",
+                "adminArea3": "",
+                "adminArea3Type": "State",
+                "adminArea1": "MX",
+                "adminArea1Type": "Country",
+                "postalCode": "00000",
+                "geocodeQualityCode": "Z1XAA",
+                "geocodeQuality": "ZIP",
+                "dragPoint": false,
+                "sideOfStreet": "N",
+                "linkId": "364468245",
+                "unknownInput": "",
+                "type": "s",
+                "latLng": {
+                    "lat": 20.969743,
+                    "lng": -89.646214
+                },
+                "displayLatLng": {
+                    "lat": 20.969743,
+                    "lng": -89.646214
+                },
+                "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&type=map&size=225,160&locations=20.969743,-89.646214|marker-sm-50318A-3&scalebar=true&zoom=15&rand=1954618047"
+            }]
+        }]
+    },
+    "headers": {
+        "access-control-allow-methods": "OPTIONS,GET,POST",
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, must-revalidate",
+        "content-type": "application/json;charset=UTF-8",
+        "date": "Wed, 26 Dec 2018 21:10:22 GMT",
+        "expires": "Mon, 20 Dec 1998 01:00:00 GMT",
+        "geocodetransactioncount": "1",
+        "last-modified": "Wed, 26 Dec 2018 21:10:22 GMT",
+        "pragma": "no-cache",
+        "reversegeocodetransactioncount": "0",
+        "server": "Apache-Coyote/1.1",
+        "set-cookie": ["JSESSIONID=CA27BCF38C4FC7D27B712D5148C6F50F; Path=/; HttpOnly"],
+        "status": "success",
+        "transactionweight": "1.0",
+        "content-length": "2393",
+        "connection": "Close"
+    },
+    "request": {
+        "uri": {
+            "protocol": "http:",
+            "slashes": true,
+            "auth": null,
+            "host": "www.mapquestapi.com",
+            "port": 80,
+            "hostname": "www.mapquestapi.com",
+            "hash": null,
+            "search": "?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&location=00000",
+            "query": "key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&location=00000",
+            "pathname": "/geocoding/v1/address",
+            "path": "/geocoding/v1/address?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&location=00000",
+            "href": "http://www.mapquestapi.com/geocoding/v1/address?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&location=00000"
+        },
+        "method": "GET",
+        "headers": {
+            "accept": "application/json"
+        }
+    }
+} {
+    street: '',
+    adminArea6: '',
+    adminArea6Type: 'Neighborhood',
+    adminArea5: '',
+    adminArea5Type: 'City',
+    adminArea4: '',
+    adminArea4Type: 'County',
+    adminArea3: '',
+    adminArea3Type: 'State',
+    adminArea1: 'FR',
+    adminArea1Type: 'Country',
+    postalCode: '00000',
+    geocodeQualityCode: 'Z1XAA',
+    geocodeQuality: 'ZIP',
+    dragPoint: false,
+    sideOfStreet: 'N',
+    linkId: '347340409',
+    unknownInput: '',
+    type: 's',
+    latLng: {
+        lat: -21.46666,
+        lng: 39.6833
+    },
+    displayLatLng: {
+        lat: -21.46666,
+        lng: 39.6833
+    },
+    mapUrl: 'http://www.mapquestapi.com/staticmap/v5/map?key=rJmHlDlCzr2R37oEkCmkpYaxtzxYKz1k&type=map&size=225,160&locations=-21.46666,39.6833|marker-sm-50318A-1&scalebar=true&zoom=15&rand=43743136'
+}
